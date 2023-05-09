@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 16px;
+}
+h1{
+  text-align: center;
+  color: white;
+  background: #000;
+  margin-bottom: 40px;
+}
+h2{
+  text-align: center;
+  color: white;
+  background: #585555;
+}
+p{
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  margin: 10px;
+}
+table tr td{
+  padding-top: .5em;
+}
+input{
+  border: 1px solid #d5d5d5;
+  padding: 8px;
+  border-radius: 3px;
+}
+.lable2{
+  width: 20%;
+}
+/* Field Observation Report */
+.input2, table{
+  width: 100%;
+}
+.input3{
+  width: 50%;
+}
+/* Audit Finding */
+.input5{
+  width: 25%;
+}
+.input7{
+  width: 33.3%;
+}
+/* Other Observation */
+.input9{
+  width: 60%;
+}
+.input10{
+  width: 40%;
+}
+.input12{
+  width: 75%;
+}
+.input13{
+  width: 49%;
+}
+
+

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <!-- Field Observation Report -->
+  <form action="">
+    <h1>Field Observation Report</h1>
+  <table>
+      <tr>
+        <td class="lable2"><label for="">Code</label></td>
+        <td><input class="input2" type="text"></td>
+        <td><label for="">Date of Visit</label></td>
+        <td><input class="input2" type="text"></td>
+      </tr>
+      <tr>
+        <td><label for="">Customer Name</label></td>
+        <td colspan="3"><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">Credit limit</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+        <td><label for="">Days</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">MO/MOS Name</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+        <td><label for="">AE/ASW Name</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">ZSW/RSM Name</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+        <td><label for="">SM Name</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td rowspan="3"><label for="">Address</label></td>
+        <td rowspan="3"><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">Contact Number</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">SMS Due</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+      </tr>
+      <tr>
+        <td><label for="">As per ACI</label></td>
+        <td><input class="input2" type="text" placeholder="SDMS"></td>
+        <td><label for="">As per Customer</label></td>
+        <td><input class="input2" type="text"></td>
+      </tr>
+      <tr>
+        <td><label for="">Gap</label></td>
+        <td><input class="input2" type="text"></td>
+        <td><label for="">Total Stock</label></td>
+        <td><input class="input2" type="text"></td>
+      </tr>
+      <tr>
+        <td><label for="">Fresh Stock</label></td>
+        <td><input class="input2" type="text" ></td>
+        <td><label for="">Damage Stock</label></td>
+        <td><input class="input2" type="text"></td>
+      </tr>
+      <tr>
+        <td rowspan="3"><label for="">Sales proceeds</label> </td>
+        <td rowspan="2"><input class="input3" type="text" placeholder="Yes"><input class="input3" type="text"placeholder="FF"></td>
+      </tr>
+      <tr>
+        <td><label for="">Business with Other Code</label></td>
+        <td><input class="input3" type="text" placeholder="Code"><input class="input3" type="text" placeholder="Name"></td>
+      </tr>
+      <tr>
+        <td><input class="input3" type="text" placeholder="No"><input class="input3" type="text" placeholder="DC"></td>
+        <td><label for="">Business with Others</label></td>
+        <td colspan="2"><input class="input2" type="text"></td>
+      </tr>
+  </table>
+  <!-- Audit Finding -->
+  <h1>Audit Finding</h1>
+  <table>
+    <tr>
+      <td class="lable2"><label for="">writing payment Posting</label></td>
+      <td>
+        <input class="input3" type="text" placeholder="Date"><input class="input3" type="text" placeholder="Amount">
+      </td>
+      <td class="lable2">
+        <input class="input2" placeholder="Code" type="text">
+      </tdc>
+      <td>
+        <input class="input2" type="text" placeholder="Customer Name">
+      </td>
+    </tr>
+    <tr>
+      <td><label for="">payment Made but not Deposited</label></td>
+      <td>
+        <input class="input3" type="text" placeholder="Date"><input class="input3" type="text" placeholder="Amount">
+      </td>
+      <td>
+        <input class="input2" placeholder="TMR#" type="text">
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="FF Name">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Invoice Raised but not Received by the Original Customer</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Date"><input class="input3" type="text" placeholder="Invoice">
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="Amount">
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Customer from Depot"><input class="input3" type="text" placeholder="Delivered"><input class="input5" type="text" placeholder="Undelivered">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Product received by respective FF $ Supplied to another Customer</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Product Name"><input class="input5" type="text" placeholder="Invoice Date"><input class="input5" type="text" placeholder="Quantity">
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="Amount">
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Code"><input class="input3" type="text" placeholder="Customer Name">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Despite Having OD/fully utilized credits product received from others</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Product Name"><input class="input5" type="text" placeholder="Invoice Date"><input class="input5" type="text" placeholder="Quantity">
+      </td>
+      <td>
+        <input class="input2" placeholder="Amount" type="text">
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Code"><input class="input3" type="text" placeholder="Customer Name">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Shifted to SD/SCP</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Product Name"><input class="input5" type="text" placeholder="Invoice Date"><input class="input5" type="text" placeholder="Quantity">
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="Amount">
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Code"><input class="input3" type="text" placeholder="Customer Name">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Stock with FF</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Product Name"><input class="input5" type="text" placeholder="Invoice Date"><input class="input5" type="text" placeholder="Quantity">
+      </td>
+      <td>
+        <input class="input2" placeholder="Amount" type="text">
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="# of Warehouse"><input class="input3" type="text" placeholder="Address">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Pending Incentive Claim</label>
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="Amount">
+      </td>
+      <td colspan="2">
+        <input class="input2" type="text" placeholder="Remarks">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Underrate/Product Sold @ discounted rate</label>
+      </td>
+      <td>
+        <input class="input3" type="text" placeholder="Product Name"><input class="input5" type="text" placeholder="Quantity"><input class="input5" type="text" placeholder="Rate @">
+      </td>
+      <td>
+        <input class="input7" type="text" placeholder="Amount"><input class="input7" type="text" placeholder="DP"><input class="input7" type="text" placeholder="Gap">
+      </td>
+      <td>
+        <input class="input2" type="text" placeholder="Remarks">
+      </td>
+    </tr> 
+  </table>
+  <!-- Other Observation -->
+  <h1>Other Observation</h1>
+  <table>
+    <tr>
+      <td colspan="2" style="width: 40%;">
+        <label for="">Long Lag time between Collection and deposit of Payment</label>
+      </td>
+      <td colspan="2">
+        <input class="input2" type="text" placeholder="Payment entry made through TCM without collecting money physically">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Customer Name Changed</label>
+      </td>
+      <td colspan="2">
+        <input class="input2" type="text" placeholder="Operating both cash/credit line against single customer">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Customer Address Changed</label>
+      </td>
+      <td>
+        <input class="input9" type="text" placeholder="Excessive credit limit facilitated"><input class="input10" type="text" placeholder="Suggested Limit">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Proprietor Changed</label>
+      </td>
+      <td>
+        <input class="input9" type="text" placeholder="Business Closed for"><input class="input10" type="text" placeholder="06 Month">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Practices of using counterfeit invoices while delivering goods</label>
+      </td>
+      <td colspan="2">
+        <input class="input9" type="text"><input class="input10" type="text">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Early Product Placement</label>
+      </td>
+      <td colspan="2">
+        <input class="input2" type="text" placeholder="Product placement after season">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="">Invoice raised without customer consent</label>
+      </td>
+      <td colspan="2">
+        <input class="input2" type="text" placeholder="Recommended for Legal Action">
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <label for="">Business with ACI</label>
+      </td>
+      <td>
+        <input class="input5" type="text" placeholder="Code"><input class="input12" type="text" placeholder="Customer Name">
+      </td>
+      <td>
+        <input class="input5" type="text" placeholder="Total Due"><input class="input5" type="text" placeholder="Overdue"><input class="input5" type="text" placeholder="120+ Overdue"><input class="input5" type="text" placeholder="Age">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input class="input5" type="text" placeholder="Code"><input class="input12" type="text" placeholder="Customer Name">
+      </td>
+      <td>
+        <input class="input5" type="text" placeholder="Total Due"><input class="input5" type="text" placeholder="Overdue"><input class="input5" type="text" placeholder="120+ Overdue"><input class="input5" type="text" placeholder="Age">
+      </td>
+    </tr>
+  </table>
+
+  <!-- Corrective Action Plan -->
+  <h1>Corrective Action Plan</h1>
+  <table>
+    <tr>
+      <td ><p>Recovery Commitment by Customer</p></td>
+      <td ><p>Recovery Commitment by MO</p></td>
+      <td ><p>Recovery Commitment by RSM/ZSM</p></td>
+    </tr>
+    <tr>
+      <td><input class="input13" type="text" placeholder="Date">
+        <input class="input13" type="text" placeholder="Amount">
+      </td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+    </tr>
+    <tr>
+      <td><input class="input13" type="text" placeholder="Date">
+        <input class="input13" type="text" placeholder="Amount">
+      </td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+    </tr>
+    <tr>
+      <td>
+        <input class="input13" type="text" placeholder="Date">
+        <input class="input13" type="text" placeholder="Amount">
+      </td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+      <td><input class="input13" type="text" placeholder="Date"><input class="input13" type="text" placeholder="Amount"></td>
+    </tr>
+    <tr>
+      <td>
+        <input class="input13" type="text" placeholder="Upload Picture">
+        <input class="input13" type="text" placeholder="Attachment-1">
+      </td>
+      <td><input class="input13" type="text" placeholder="Attachment-2"><input class="input13" type="text" placeholder="Attachment-3"></td>
+      <td><input class="input13" type="text" placeholder="Attachment-4"><input class="input13" type="text" placeholder="Attachment-5"></td>
+    </tr>
+  </table>
+  </form>
+</body>
+</html> 
